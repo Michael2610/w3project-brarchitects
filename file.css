@@ -1,13 +1,23 @@
 body{
+    background-color: white;
+}
+
+.imguno{
+    position:fixed;
+}
+
+.displaycenter{
+    position: absolute;
+    text-align:center !important;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
-        font-family: "Segoe UI", Arial, sans-serif;
-        font-weight: 400;
-        margin: 10px 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
 }
 
 p{
     font-family:Arial, sans-serif;
 }
+
