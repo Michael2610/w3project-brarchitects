@@ -5,10 +5,45 @@ body{
     line-height: 1.5;
 }
 
+@media only screen and (max-width:600px) {
+    
+    .hide-small{
+        display: none;
+    }
+
+    b{
+        text-align: middle;
+    }
+
+}
+
+@media only screen and (max-width:625px) {
+    
+    .containeroll{
+        width: 500px !important;
+        height: auto !important;
+    }
+
+    .containerfig{
+        width: 500px;
+        height: auto;
+    }
+
+    .table{
+        width: 500px;
+        height: auto;
+    }
+    
+    .td{
+        align-self: center;
+    }
+}
+
 .table{
     border: 0px solid black;
     vertical-align: middle;
     border-spacing: 7px;
+    margin-bottom: 15px;
 }
 
 .td{
@@ -18,7 +53,7 @@ body{
 
 .header {
         background-color: white;
-        padding: 20px 15px;
+        padding: 8px 16px;
         text-align: center;
         width:100%;
         position:fixed;
@@ -38,11 +73,8 @@ body{
     vertical-align: middle;
     max-width:100%;
     height:auto;
-    z-index: -1;
-}
-
-figure{
     margin: 0;
+    z-index: -1;
 }
 
 .figure{
@@ -160,9 +192,17 @@ hr{
 .center {
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
     letter-spacing: 5px;
+}
+
+.containercentro{
+        position: relative;
+        max-width: 1500px; 
+        height: auto; 
 }
 
 pre{
@@ -176,6 +216,7 @@ input[type=text]{
     font-family: Verdana, sans-serif;
     font-size: 15px;
     margin-left: 40px;
+    border:1px solid #ccc;
     cursor:text;
 }
 
