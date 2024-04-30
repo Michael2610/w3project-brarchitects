@@ -5,6 +5,22 @@ body{
     line-height: 1.5;
 }
 
+@media only screen and (max-width:420px) {
+
+    html{
+        width: 420px;
+    }
+    
+    .imguno{
+        width: max-content !important;
+    }
+
+    .figure{
+        width: 300px;
+        align-content: middle;
+    }
+}
+
 @media only screen and (max-width:600px) {
     
     .hide-small{
@@ -18,25 +34,22 @@ body{
 }
 
 @media only screen and (max-width:625px) {
-    
-    .containeroll{
-        width: 500px !important;
-        height: auto !important;
-    }
-
-    .containerfig{
-        width: 500px;
-        height: auto;
-    }
 
     .table{
-        width: 500px;
-        height: auto;
+        vertical-align: middle;
     }
     
     .td{
         align-self: center;
     }
+}
+
+@media only screen and (max-width:920px) {
+    
+    .figure{
+        margin-left: 60px !important;
+    }
+
 }
 
 .table{
